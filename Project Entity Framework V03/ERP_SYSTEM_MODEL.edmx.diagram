@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e4b37dc80474c96ba5f9a6b0a7b47b1" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Customer" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Factory" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Repo_Prod" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Repository" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Selling_Permission" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Supplier" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Supply_Permission" Width="1.75" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Selling_Permission_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Repository_Factory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Repo_Prod_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Selling_Permission_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Supply_Permission_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Repo_Prod_Repository" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Selling_Permission_Repository" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Supply_Permission_Repository" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Supply_Permission_Supplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
